@@ -1,0 +1,90 @@
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: gray;
+    border-radius: 30px;
+    list-style: none;
+    max-height: 50px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    margin: 0;
+    margin-left: auto;
+    color: white;
+}
+li {
+    list-style-type: none;
+    flex-direction: row;
+}
+ul {
+
+    display: flex;
+    gap: 20px;
+}
+.form {
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    background-color: gray;
+    width: 450px;
+    border-radius: 30px;
+    
+}
+.Description {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.Insert {
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+.button1 {
+    background-color: lightgray;
+    border-style: solid;
+    border-color: black;
+    width: 200px;
+    font-size: 20px;
+}
+.button2 {
+    width: 300px;
+    display:flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.Create {
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.button1:hover{
+    background-color: lightblue;
+}
+.button2:hover{
+    background-color: lightblue;
+}
+h3 {
+    margin-right: auto;
+}
+
+
