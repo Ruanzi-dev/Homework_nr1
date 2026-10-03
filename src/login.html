@@ -3,19 +3,37 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add post page</title>
-    <link rel="stylesheet" href="../res/css/style.css">
+    <title>Login page</title>
+    <link rel="stylesheet" href="../res/css/login.css">
     </head>
     
-    <body>
+     <body class="body">
         <header class="header">
-            <ul class="nav">
-                <li><a href="../src/index.html">Home</a></li>
-                <li><a href="../src/addPost.html">Add post</a></li>
-        </ul>
-                <a class="logo" href="#"><img src="../res/images/me.png" width="50" height="50" alt="picture"></a>
+		<nav class="nav">
+			<ul class="header-content">
+				<li><a href="../src/login.html">Home</a></li>
+			</ul>
+		</nav>
+		<a class="logo" href="#"><img class="logo-img" src="../res/images/me.png" alt="picture"></a>
+    </header>
 
-        
-        </header>
+    <main class="form">
+        <form>
+            <label class="headertext">Welcome to Postit
+            <span class="account">Create an account</span>
+                <span>or</span>Please log in</label>
+            <label class="Description">
+                <textarea id="email" placeholder="Email"></textarea>
+            </label> 
+
+            <label class="Insert">
+            <textarea id="password" placeholder="password"></textarea>
+        </label>
+            <label class="Create"><a class="button2" id="login" href="#">Log in</a></label>
+            <label><span class="account">Forget password?<span></label>
+        </form>
+
+    </main>
+        <script src="login.js"></script>
     </body>
 </html>

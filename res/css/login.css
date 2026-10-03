@@ -26,7 +26,7 @@
 	gap: 4rem;
 }
 
-.header-content li{
+.header-content li{ /* descendant selector */
 	border: 1px;
 	border-style: hidden;
 }
@@ -83,23 +83,26 @@ ul {
     gap: 20px;
 }
 .form {
-    height: 300px;
-    position: absolute;
+    height: auto;
+    width: auto;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: grid;
+    display: flex;
     background-color: gray;
     width: 450px;
     border-radius: 30px;
     
 }
 .Description {
+    justify-content: center;
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 .Insert {
+    margin: 5%;
     justify-content:center;
     align-items:center;
     display: flex;
@@ -132,14 +135,29 @@ ul {
     align-items: center;
     justify-content: center;
 }
-.button1:hover{
+.button1:hover{ /* pseudo class*/
     background-color: lightblue;
 }
-.Create:hover{
+.button2:hover{
     background-color: lightblue;
 }
-h3 {
-    margin-right: auto;
+span {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+.headertext {
+    text-align: center;
+    margin: 5%;
+    display: grid;
+    justify-content: center;
+}
+
+textarea:focus::placeholder{
+    color:transparent
+}
+label > .account { /* child selector */
+    color: blue;
 }
 
 
