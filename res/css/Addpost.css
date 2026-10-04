@@ -20,14 +20,14 @@
 	list-style: none;
 	display: flex;
 	flex-direction: row;
-	gap: 0.5em;
+	gap: 0.5rem;
 	justify-content: space-between;
 	padding: 0rem 0rem 0rem 4rem;
 	gap: 4rem;
 }
 
-.header-content li{
-	border: 1px;
+.header-content > li{
+	border 1px;
 	border-style: hidden;
 }
 
@@ -37,12 +37,12 @@
 
 .header-content li a{
 	color: white;
-	font-size: 2rem;
+	font-size: 2em;
 	border: 0.125rem;
 	border-style: solid;
 	border-color: black;
 	border-radius: 1rem;
-	padding: 0.125rem;
+	padding: 0.125em;
 }
 
 
