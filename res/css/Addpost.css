@@ -129,8 +129,8 @@ ul {
     background-color: blue;
     display: inline-block;
     text-decoration: no;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:center;
 }
 .button1:hover{
     background-color: lightblue;
