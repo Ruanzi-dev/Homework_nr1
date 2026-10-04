@@ -159,5 +159,20 @@ textarea:focus::placeholder{
 label > .account { /* child selector */
     color: blue;
 }
+@media (max-width: 480px) {
+    .header {
+        margin: 0.5rem;
+    }
+
+    .header-content {
+        padding-left: 0;
+        gap: 0.75rem;
+    }
+
+    .header-content li a {
+        font-size: 1.25em;
+        padding: 0.1em;
+    }
+}
 
 
