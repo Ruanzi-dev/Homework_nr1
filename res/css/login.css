@@ -175,4 +175,8 @@ label > .account { /* child selector */
     }
 }
 
+input {
+    min-height: 3em;
+}
+
 

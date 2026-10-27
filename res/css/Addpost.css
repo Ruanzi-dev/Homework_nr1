@@ -47,9 +47,11 @@
 
 
 .logo{
+    position: relative;
 	display: flex;
 	height: 100%;
 	width: auto;
+    cursor: pointer;
 }
 
 .logo-img{
@@ -155,6 +157,22 @@ h3 {
         font-size: 1.25em;
         padding: 0.1em;
     }
+}
+
+.dropdown {
+    display: none;
+    position:absolute;
+    right: 0;
+    top: 100%;
+}
+.dropdown a{
+    padding: 10em;
+    display: block;
+    background-color: gray;
+    padding: 1em;
+}
+.dropdown a:hover{
+    background-color: lightgray;
 }
 
 
