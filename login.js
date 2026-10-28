@@ -6,7 +6,8 @@ document.getElementById("login").addEventListener("click", function (event) {
     if (email=="" || password==""){
         document.getElementById("error").textContent="You have to enter the details!";
     }else {
+        localStorage.setItem("usergmail", email)
         window.location.href="frontpage.html"
     }
 
-});
+})

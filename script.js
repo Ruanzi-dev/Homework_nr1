@@ -5,10 +5,12 @@ function getRandomInt(max) {
 
 const posts = document.querySelectorAll(".post");
 
+
 posts.forEach((post) => {
   const button = post.querySelector(".like-button");
   const heart = post.querySelector(".heart");
   const countElement = post.querySelector(".count");
+
 
   let likeCount = getRandomInt(100);
   let liked = 0;
@@ -29,6 +31,29 @@ posts.forEach((post) => {
     countElement.innerHTML = likeCount;
   });
 });
+
+
+function pictureclick(){
+  let logo = document.querySelector(".logo")
+  let dropdown = document.querySelector(".dropdown")
+  dropdown.style.display = "none"
+  logo.addEventListener("click", function(){
+    if (dropdown.style.display == "none"){
+      dropdown.style.display = "block"
+    }else {
+      dropdown.style.display = "none";
+    }
+  });
+}
+pictureclick();
+function addgmail(){
+  const email = document.getElementById("usergmail")
+  const username = localStorage.getItem("usergmail")
+  email.textContent = username;
+}
+addgmail();
+
+
 
 
 
