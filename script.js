@@ -1,8 +1,30 @@
+function pictureclick(){
+  let logo = document.querySelector(".logo")
+  let dropdown = document.querySelector(".dropdown")
+  dropdown.style.display = "none"
+  logo.addEventListener("click", function(){
+    if (dropdown.style.display == "none"){
+      dropdown.style.display = "block"
+    }else {
+      dropdown.style.display = "none";
+    }
+  });
+}
+pictureclick();
+
+function addgmail(){
+  const email = document.getElementById("usergmail")
+  const username = localStorage.getItem("usergmail")
+  email.textContent = username;
+}
+addgmail();
+
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+function likes (){
 const posts = document.querySelectorAll(".post");
 
 
@@ -31,27 +53,8 @@ posts.forEach((post) => {
     countElement.innerHTML = likeCount;
   });
 });
-
-
-function pictureclick(){
-  let logo = document.querySelector(".logo")
-  let dropdown = document.querySelector(".dropdown")
-  dropdown.style.display = "none"
-  logo.addEventListener("click", function(){
-    if (dropdown.style.display == "none"){
-      dropdown.style.display = "block"
-    }else {
-      dropdown.style.display = "none";
-    }
-  });
 }
-pictureclick();
-function addgmail(){
-  const email = document.getElementById("usergmail")
-  const username = localStorage.getItem("usergmail")
-  email.textContent = username;
-}
-addgmail();
+likes();
 
 
 
