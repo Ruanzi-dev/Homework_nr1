@@ -1,0 +1,74 @@
+[
+  {
+    "postID": 1,
+    "creatorID": "username",
+    "postText": "random words in sequence",
+    "imgPath": "res/images/burger.jpeg",
+    "creationDate": "2026-10-25"
+  },
+  {
+    "postID": 10,
+    "creatorID": "sarah_p",
+    "postText": "Ready for the weekend adventures and good food with friends!",
+    "imgPath": null,
+    "creationDate": "2026-10-31"
+  },
+
+  {
+    "postID": 3,
+    "creatorID": "username",
+    "postText": "random words in sequence",
+    "imgPath": "res/images/tartu.png",
+    "creationDate": "2026-10-18"
+  },
+  {
+    "postID": 7,
+    "creatorID": "johndoe",
+    "postText": "Just captured this amazing view during my afternoon walk.",
+    "imgPath": null,
+    "creationDate": "2026-10-22"
+  },
+
+  {
+    "postID": 4,
+    "creatorID": "username",
+    "postText": "random words in sequence",
+    "imgPath": "res/images/mountains.webp",
+    "creationDate": "2026-10-18"
+  },
+  {
+    "postID": 5,
+    "creatorID": "alex_99",
+    "postText": "Exploring the beautiful streets today and enjoying the autumn breeze.",
+    "imgPath": null,
+    "creationDate": "2026-10-15"
+  },
+  {
+    "postID": 2,
+    "creatorID": "username",
+    "postText": "random words in sequence",
+    "imgPath": "res/images/france.webp",
+    "creationDate": "2026-10-25"
+  },
+  {
+    "postID": 6,
+    "creatorID": "maria_k",
+    "postText": "Coffee, coding, and a quiet Sunday morning in the city.",
+    "imgPath": null,
+    "creationDate": "2026-10-18"
+  },
+  {
+    "postID": 8,
+    "creatorID": "elena_t",
+    "postText": "History and modern architecture blend so well around here.",
+    "imgPath": null,
+    "creationDate": "2026-10-25"
+  },
+  {
+    "postID": 9,
+    "creatorID": "coding_ninja",
+    "postText": "Debugging old code while listening to some lo-fi beats.",
+    "imgPath": null,
+    "creationDate": "2026-10-28"
+  }
+]

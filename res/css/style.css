@@ -33,7 +33,7 @@
 }
 
 .header-content > li{
-	border 1px;
+	border: 1px;
 	border-style: hidden;
 }
 
@@ -105,6 +105,7 @@
 
 .post-text{
 	padding-bottom: 1rem;
+	min-width: min(100% - 2rem, 35rem);
 }
 
 .post-header ~ .like-box{
