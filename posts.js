@@ -1,5 +1,9 @@
 window.onload = function () {
-  fetch("https://api.jsonbin.io/v3/qs/6ae704efffd5d160539cdc5c")
+  fetch("https://api.jsonbin.io/v3/b/6ae77ffdffd5d160539db0ab", {
+    headers: {
+      "X-Access-Key": "$2a$10$2ldeRj.4ORUaKU/wVDqpeOba3e2fWsoB4YfvNdrOYxS6cbnLzdGdS",
+    },
+  })
     .then((response) => response.json())
     .then((json) => {
       console.log(json);
