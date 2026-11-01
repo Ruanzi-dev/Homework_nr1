@@ -4,37 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add post page</title>
-    <link rel="stylesheet" href="res/css/Addpost.css" />
-  </head>
-
-  <body class="body">
-    <header class="header">
-      <nav class="nav">
-        <ul class="header-content">
-          <li><a href="frontpage.html">Home</a></li>
-          <li><a href="addPost.html">Add post</a></li>
-        </ul>
-      </nav>
-      <a class="logo" href="#"
-        ><img class="logo-img" src="res/images/me.png" alt="picture"
-      /></a>
+    <link rel="stylesheet" href="res/css/style.css">
+    </head>
+    
+     <body class="body">
+        <header class="header">
+		<nav class="nav">
+			<ul class="header-content">
+				<li><a href="frontpage.html">Home</a></li>
+				<li><a href="addPost.html">Add post</a></li>
+			</ul>
+		</nav>
+		<div class="logo"><img class="logo-img" src="res/images/me.png" alt="picture"><div class="dropdown">
+                <a id="usergmail"></a>
+                <a>Tom and jerry</a>
+                <a href="index.html">Logout</a>
+            </div></div>
+        <script src="script.js"></script>
     </header>
 
-    <main class="form">
-      <form>
-        <label class="Description">
-          <h3>Post body</h3>
-          <textarea rows="5"></textarea>
-        </label>
-
-        <label class="Insert"
-          ><h3>Select file</h3>
-          <button class="button1">Choose file</button>
+    <main class="addform">
+        <form class="inside">
+            <label class="Description">
+                <h3>Post body</h3>
+                <textarea rows="5"></textarea>
+            </label> 
+            <label class="Insert"><h3>Select file</h3>
+            <button class="button1">Choose file</button>
         </label>
         <label class="Create"
           ><a class="button2" href="frontpage.html">Create post</a></label
         >
       </form>
     </main>
-  </body>
+</body>
 </html>
